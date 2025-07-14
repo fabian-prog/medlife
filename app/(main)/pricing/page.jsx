@@ -1,9 +1,9 @@
-import { redirect } from "next/navigation";
+import {redirect} from "next/navigation";
 import Link from "next/link";
-import { ArrowLeft, CreditCard, Shield, Check } from "lucide-react";
-import { PricingTable } from "@clerk/nextjs";
-import { Badge } from "@/components/ui/badge";
-import { Card, CardContent } from "@/components/ui/card";
+import {ArrowLeft, CreditCard, Shield, Check} from "lucide-react";
+import {PricingTable} from "@clerk/nextjs";
+import {Badge} from "@/components/ui/badge";
+import {Card, CardContent} from "@/components/ui/card";
 import Pricing from "@/components/pricing";
 
 export default async function PricingPage() {
@@ -39,7 +39,7 @@ export default async function PricingPage() {
       </div>
 
       {/* Pricing Table Section */}
-      <Pricing />
+      {/* <Pricing /> */}
 
       {/* FAQ Section - Optional */}
       <div className="max-w-3xl mx-auto mt-16 text-center">
